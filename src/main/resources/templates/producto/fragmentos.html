@@ -9,7 +9,7 @@
 
     <body>
         <!-- fragmento 1 para Agregar producto en ventana modal -->
-        <section th:fragment="agregar">
+        <section th:fragment="agregar" class="cat-sections">
             <!-- Button trigger modal -->
             <div class='row py-4 mb-2 bg-light'>
                 <div class='col-md-1'></div>
@@ -82,7 +82,7 @@
         </section>
 
         <!-- fragmento 2 para el listado de productos -->
-        <section th:fragment="listado" class="p-3">
+        <section th:fragment="listado" class="p-3 cat-sections">
             <div class="row p-3">
                 <div class="col-md-9">
                     <div class="card p-2">
@@ -140,7 +140,7 @@
         </section>
 
         <!-- 3 Fragmento que se utiliza en la página modifca.html -->
-        <section th:fragment="editar">
+        <section th:fragment="editar" class="cat-sections">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
@@ -209,7 +209,7 @@
         </section>
 
         <!-- 4 fragmento que se utiliza para confirmar que se desea eliminar una producto -->
-        <section th:fragment="confirmarEliminar">
+        <section th:fragment="confirmarEliminar" class="cat-sections">
             <div class="modal fade" 
                  id="confirmModal" 
                  tabindex="-1" 
